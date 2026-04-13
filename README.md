@@ -1,2 +1,11 @@
-# MzansiBuilds
-MzansiBuilds is a platform that helps developers to build publicly and keep up with what other developers are building.
+
+  # Social Media Web App
+
+  This is a code bundle for Social Media Web App. The original project is available at https://www.figma.com/design/Hx1gtwF0Q1avJDhQPvT89w/Social-Media-Web-App.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
