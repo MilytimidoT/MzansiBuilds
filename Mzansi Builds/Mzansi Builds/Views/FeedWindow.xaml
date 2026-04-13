@@ -1,0 +1,230 @@
+﻿<Window x:Class="Mzansi_Builds.Views.FeedWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:models="clr-namespace:Mzansi_Builds.Models"
+        Title="MzansiBuilds"
+        Height="720"
+        Width="1100"
+        WindowStartupLocation="CenterScreen"
+        Background="#F3F4F6">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 🔝 NAVBAR -->
+        <Border Background="White" BorderBrush="#E5E7EB" BorderThickness="0,0,0,1">
+            <Grid Margin="30,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Logo -->
+                <TextBlock Text="MzansiBuilds"
+                           Foreground="#16A34A"
+                           FontWeight="Bold"
+                           FontSize="22"
+                           VerticalAlignment="Center"/>
+
+                <!-- CENTER MENU -->
+                <StackPanel Orientation="Horizontal"
+                            Grid.Column="1"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center">
+
+                    <Border Background="#DCFCE7" CornerRadius="8" Padding="12,6">
+                        <TextBlock Text="🏠 Public Feed" FontWeight="SemiBold"/>
+                    </Border>
+
+                    <TextBlock Text="👥 Friends"
+           Cursor="Hand"
+           MouseDown="OpenFriends_Click"  Margin="25,0,0,0" VerticalAlignment="Center"/>
+           
+                    <TextBlock Text="🔍 Search" Margin="25,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <!-- RIGHT SIDE -->
+                <StackPanel Orientation="Horizontal"
+                            Grid.Column="2"
+                            VerticalAlignment="Center">
+
+                    <!-- Notification -->
+                    <Grid Margin="0,0,15,0">
+                        <TextBlock Text="🔔" FontSize="16"/>
+                        <Border Background="#16A34A"
+                                CornerRadius="10"
+                                Width="18"
+                                Height="18"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Top">
+                            <TextBlock Text="2"
+                                       Foreground="White"
+                                       FontSize="10"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"/>
+                        </Border>
+                    </Grid>
+
+                    <!-- Profile -->
+                    <Ellipse Width="30" Height="30" Fill="Gray"/>
+
+                    <TextBlock x:Name="UserEmailText"
+                               Margin="8,0,15,0"
+                               VerticalAlignment="Center"
+                               FontWeight="Medium"/>
+
+                    <TextBlock Text="Logout"
+                               Foreground="#374151"
+                               Cursor="Hand"
+                               VerticalAlignment="Center"
+                               MouseDown="Logout_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- 🧾 MAIN CONTENT -->
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Margin="0,25" HorizontalAlignment="Center" Width="650">
+
+                <!-- 👋 WELCOME TEXT -->
+                <TextBlock x:Name="WelcomeText"
+                           FontSize="20"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,15"
+                           TextAlignment="Left"/>
+
+                <!-- ✍️ POST BOX -->
+                <Border Background="White"
+                        CornerRadius="12"
+                        Padding="15"
+                        BorderBrush="#E5E7EB"
+                        BorderThickness="1">
+
+                    <StackPanel>
+
+                        <!-- INPUT -->
+                        <Border BorderBrush="#3B82F6"
+                                BorderThickness="2"
+                                CornerRadius="10"
+                                Padding="10">
+                            <TextBox x:Name="ContentTextBox"
+                                     BorderThickness="0"
+                                     Background="Transparent"
+                                     AcceptsReturn="True"
+                                     Height="90"
+                                     TextWrapping="Wrap"
+                                     FontSize="14"
+                                     Foreground="#374151"
+                                     Text="Share something with the community..." />
+                        </Border>
+
+                        <!-- ACTION ROW -->
+                        <Grid Margin="0,12,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- LEFT -->
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="📷 Photo"
+                                           Margin="0,0,15,0"
+                                           Cursor="Hand"
+                                           MouseDown="AttachButton_Click"/>
+
+                                <TextBlock Text="🐙 GitHub"
+                                           Cursor="Hand"/>
+                            </StackPanel>
+
+                            <!-- RIGHT -->
+                            <StackPanel Orientation="Horizontal" Grid.Column="1">
+                                <TextBlock Text="Cancel"
+                                           Margin="0,0,15,0"
+                                           Cursor="Hand"
+                                           Foreground="#374151"
+                                           MouseDown="CancelButton_Click"/>
+
+                                <Border Background="#16A34A"
+                                        CornerRadius="8"
+                                        Padding="15,6"
+                                        Cursor="Hand"
+                                        MouseDown="PostButton_Click">
+                                    <TextBlock Text="Post"
+                                               Foreground="White"
+                                               FontWeight="Bold"/>
+                                </Border>
+                            </StackPanel>
+                        </Grid>
+
+                        <!-- ATTACHMENTS -->
+                        <TextBlock x:Name="AttachedFilesText"
+                                   Margin="0,10,0,0"
+                                   FontSize="12"
+                                   Foreground="Gray"
+                                   Text="No attachments"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- 📰 POSTS -->
+                <ItemsControl x:Name="PostsList" Margin="0,20,0,0">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate DataType="{x:Type models:Post}">
+                            <Border Background="White"
+                                    CornerRadius="12"
+                                    Padding="15"
+                                    Margin="0,0,0,15"
+                                    BorderBrush="#E5E7EB"
+                                    BorderThickness="1">
+
+                                <StackPanel>
+
+                                    <!-- HEADER -->
+                                    <StackPanel Orientation="Horizontal">
+                                        <Ellipse Width="40" Height="40" Fill="Gray"/>
+                                        <StackPanel Margin="10,0,0,0">
+                                            <TextBlock Text="{Binding AuthorEmail}" FontWeight="Bold"/>
+                                            <TextBlock Text="{Binding CreatedAt, StringFormat='{}{0:g}'}"
+                                                       FontSize="11"
+                                                       Foreground="Gray"/>
+                                        </StackPanel>
+                                    </StackPanel>
+
+                                    <!-- TEXT -->
+                                    <TextBlock Text="{Binding Content}"
+                                               Margin="0,10,0,10"
+                                               TextWrapping="Wrap"/>
+
+                                    <!-- IMAGE -->
+                                    <ItemsControl ItemsSource="{Binding AttachmentPaths}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Image Source="{Binding}"
+                                                       Height="220"
+                                                       Stretch="UniformToFill"
+                                                       Margin="0,5"/>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                    <!-- GITHUB -->
+                                    <TextBlock Margin="0,10,0,0">
+                                        <Hyperlink NavigateUri="{Binding GithubLink}"
+                                                   RequestNavigate="GithubLink_RequestNavigate">
+                                            <TextBlock Text="{Binding GithubLink}" Foreground="#2563EB"/>
+                                        </Hyperlink>
+                                    </TextBlock>
+
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

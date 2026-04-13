@@ -1,0 +1,21 @@
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\bin\Debug\Mzansi Builds.exe.config
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\bin\Debug\Mzansi Builds.exe
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\bin\Debug\Mzansi Builds.pdb
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds.csproj.AssemblyReference.cache
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Views\LoginWindow.baml
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Views\RegisterWindow.baml
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Views\FeedWindow.g.cs
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Views\RegisterWindow.g.cs
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\App.g.cs
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds_MarkupCompile.cache
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds_MarkupCompile.lref
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Views\FeedWindow.baml
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds.g.resources
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi_Builds.Properties.Resources.resources
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds.csproj.GenerateResource.cache
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds.csproj.CoreCompileInputs.cache
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds.exe
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds.pdb
+C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\Mzansi Builds.exe.config
