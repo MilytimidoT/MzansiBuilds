@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\App.xaml
-3932418544
+4-765974757
 
-101828086749
+161707882716
 13-1310406943
-Views\FeedWindow.xaml;Views\LoginWindow.xaml;Views\RegisterWindow.xaml;
+Views\FeedWindow.xaml;Views\LoginWindow.xaml;Views\ProfileWindow.xaml;Views\RegisterWindow.xaml;
 
-False
+True
 

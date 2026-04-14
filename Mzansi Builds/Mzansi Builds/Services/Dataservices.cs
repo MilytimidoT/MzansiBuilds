@@ -20,8 +20,7 @@ namespace Mzansi_Builds.Services
         private readonly List<Post> _posts = new List<Post>();
         private readonly object _postsLock = new object();
 
-        private readonly List<FriendRequest> _requests = new List<FriendRequest>();
-        private readonly object _requestsLock = new object();
+       
 
         private string _dataFolder;
         private string _usersFile;
@@ -29,10 +28,6 @@ namespace Mzansi_Builds.Services
 
         private DataService() { }
 
-        /// <summary>
-        /// Call once at application startup to configure persistence and load saved data.
-        /// If you don't want persistence, you can skip calling Initialize().
-        /// </summary>
         public void Initialize(string dataFolder = null)
         {
             _dataFolder = string.IsNullOrWhiteSpace(dataFolder)
@@ -45,6 +40,51 @@ namespace Mzansi_Builds.Services
             _postsFile = Path.Combine(_dataFolder, "posts.xml");
 
             LoadFromDisk();
+            if (!_users.Any())
+            {
+                _users.AddRange(new List<User>
+                {
+                    new User { Name = "Alex Johnson", Email = "alex@mail.com", City = "San Francisco, CA", Password = "123", Bio = "Full-stack developer | Open source enthusiast | Coffee lover", JoinedAt = new DateTime(2024,1,15), FollowersCount = 0, FollowingCount = 0, PostsCount = 0 },
+                    new User { Name = "Sarah Chen", Email = "sarah@mail.com", City = "New York, NY", Password = "123", Bio = "UI/UX Designer passionate about creating beautiful experiences", JoinedAt = new DateTime(2023,6,2), FollowersCount = 1234, FollowingCount = 567, PostsCount = 10 },
+                    new User { Name = "Emily Rodriguez", Email = "emily@mail.com", City = "Seattle, WA", Password = "123", Bio = "Product Manager | Tech innovator | Startup advisor", JoinedAt = new DateTime(2022,3,10), FollowersCount = 200, FollowingCount = 150, PostsCount = 5 },
+                    new User { Name = "David Kim", Email = "david@mail.com", City = "Los Angeles, CA", Password = "123", Bio = "DevOps Engineer | Cloud architecture specialist", JoinedAt = new DateTime(2021,11,19), FollowersCount = 95, FollowingCount = 40, PostsCount = 3 },
+                    new User { Name = "Marcus Thompson", Email = "marcus@mail.com", City = "Austin, TX", Password = "123", Bio = "Software Engineer | React & TypeScript enthusiast", JoinedAt = new DateTime(2020,9,1), FollowersCount = 892, FollowingCount = 423, PostsCount = 30 }
+                });
+            }
+
+            if (!_posts.Any())
+            {
+                _posts.AddRange(new List<Post>
+                {
+                    new Post
+                    {
+                        AuthorEmail = "sarah@mail.com",
+                        Content = "Just finished redesigning our dashboard 🚀",
+                        GithubLink = "https://github.com/example/project",
+                        AttachmentPaths = new List<string>(),
+                        CreatedAt = DateTime.Now.AddHours(-2),
+                        LikesCount = 4
+                    },
+                    new Post
+                    {
+                        AuthorEmail = "marcus@mail.com",
+                        Content = "Shipping a small utility that saved me hours. Open source link soon!",
+                        GithubLink = "",
+                        CreatedAt = DateTime.Now.AddDays(-1),
+                        LikesCount = 12
+                    },
+                    new Post
+                    {
+                        AuthorEmail = "emily@mail.com",
+                        Content = "Looking for feedback on this product idea — DM me!",
+                        CreatedAt = DateTime.Now.AddMinutes(-45),
+                        LikesCount = 2
+                    }
+                });
+            }
+
+            // Remove friend-request seeding if present or leave; unused by feed-only UI
+            SaveToDisk();
         }
 
         // Users ----------------------------------------------------------------
@@ -66,11 +106,6 @@ namespace Mzansi_Builds.Services
             }
         }
 
-        /// <summary>
-        /// Adds a user if the email does not already exist. Returns false and sets error on failure.
-        /// This implementation expects the caller to set the user's Password (current plaintext model).
-        /// Consider replacing plaintext storage with a secure hash (see project notes).
-        /// </summary>
         public bool TryAddUser(User user, out string error)
         {
             error = null;
@@ -131,7 +166,35 @@ namespace Mzansi_Builds.Services
             lock (_postsLock)
             {
                 post.CreatedAt = DateTime.Now;
+                if (post.Id == Guid.Empty) post.Id = Guid.NewGuid();
                 _posts.Add(post);
+            }
+
+            SaveToDisk();
+        }
+
+        public void ToggleLike(Guid postId, string userEmail)
+        {
+            if (postId == Guid.Empty || string.IsNullOrWhiteSpace(userEmail)) return;
+
+            lock (_postsLock)
+            {
+                var post = _posts.FirstOrDefault(p => p.Id == postId);
+                if (post == null) return;
+
+                if (post.LikedBy == null) post.LikedBy = new List<string>();
+
+                var exists = post.LikedBy.Any(e => string.Equals(e?.Trim(), userEmail?.Trim(), StringComparison.OrdinalIgnoreCase));
+                if (exists)
+                {
+                    post.LikedBy.RemoveAll(e => string.Equals(e?.Trim(), userEmail?.Trim(), StringComparison.OrdinalIgnoreCase));
+                }
+                else
+                {
+                    post.LikedBy.Add(userEmail);
+                }
+
+                post.LikesCount = post.LikedBy.Count;
             }
 
             SaveToDisk();
@@ -237,67 +300,7 @@ namespace Mzansi_Builds.Services
                 return null;
             }
         }
-        public void SendFriendRequest(string from, string to)
-        {
-            if (string.IsNullOrWhiteSpace(from) || string.IsNullOrWhiteSpace(to) || from == to)
-                return;
 
-            lock (_requestsLock)
-            {
-                if (_requests.Any(r =>
-                    r.FromEmail == from &&
-                    r.ToEmail == to))
-                    return;
-
-                _requests.Add(new FriendRequest
-                {
-                    FromEmail = from,
-                    ToEmail = to,
-                    IsAccepted = false
-                });
-            }
-        }
-        public List<FriendRequest> GetPendingRequests(string email)
-        {
-            lock (_requestsLock)
-            {
-                return _requests
-                    .Where(r => r.ToEmail == email && !r.IsAccepted)
-                    .ToList();
-            }
-        }
-        public void AcceptRequest(FriendRequest request)
-        {
-            lock (_requestsLock)
-            {
-                var req = _requests.FirstOrDefault(r =>
-                    r.FromEmail == request.FromEmail &&
-                    r.ToEmail == request.ToEmail);
-
-                if (req != null)
-                    req.IsAccepted = true;
-            }
-        }
-        public List<string> GetFriends(string email)
-        {
-            lock (_requestsLock)
-            {
-                return _requests
-                    .Where(r => r.IsAccepted &&
-                           (r.FromEmail == email || r.ToEmail == email))
-                    .Select(r => r.FromEmail == email ? r.ToEmail : r.FromEmail)
-                    .Distinct()
-                    .ToList();
-            }
-        }
-        public List<User> SearchUsers(string currentEmail)
-        {
-            lock (_usersLock)
-            {
-                return _users
-                    .Where(u => u.Email != currentEmail)
-                    .ToList();
-            }
-        }
     }
+
 }

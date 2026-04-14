@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using Mzansi_Builds.Models;
+using Mzansi_Builds.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
-using Microsoft.Win32;
+using System.Windows.Controls;
 using System.Windows.Navigation;
-
-using Mzansi_Builds.Models;
-using Mzansi_Builds.Services;
 
 namespace Mzansi_Builds.Views
 {
@@ -155,12 +155,7 @@ namespace Mzansi_Builds.Views
                 ContentTextBox.Text = PlaceholderText;
                 ContentTextBox.Foreground = System.Windows.Media.Brushes.Gray;
             }
-        }
-        private void OpenFriends_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            var friends = new FriendsWindow(_user);
-            friends.Show();
-            this.Close();
-        }
+        }       
+ 
     }
 }

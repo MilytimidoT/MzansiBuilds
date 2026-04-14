@@ -1,8 +1,9 @@
-﻿using System.Windows;
+﻿using Microsoft.Win32;
 using Mzansi_Builds.Models;
 using Mzansi_Builds.Services;
 using System;
 using System.Linq;
+using System.Windows;
 using System.Windows;
 
 namespace Mzansi_Builds.Views
@@ -54,6 +55,7 @@ namespace Mzansi_Builds.Views
                 Email = email,
                 City = city,
                 Password = password
+
             };
 
             DataService.Instance.TryAddUser(user, out var error);
@@ -70,6 +72,17 @@ namespace Mzansi_Builds.Views
             var login = new LoginWindow();
             login.Show();
             this.Close();
+        }
+        private string _imagePath;
+
+        private void UploadImage_Click(object sender, RoutedEventArgs e)
+        {
+            var dlg = new OpenFileDialog();
+            if (dlg.ShowDialog() == true)
+            {
+                _imagePath = dlg.FileName;
+                ImagePathText.Text = System.IO.Path.GetFileName(_imagePath);
+            }
         }
     }
 }

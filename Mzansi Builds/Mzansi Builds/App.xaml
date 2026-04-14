@@ -1,9 +1,7 @@
 ﻿<Application x:Class="Mzansi_Builds.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Mzansi_Builds"
-             StartupUri="Views/LoginWindow.xaml">
-    <Application.Resources>
-         
-    </Application.Resources>
+             xmlns:converters="clr-namespace:Mzansi_Builds.Converters"
+             StartupUri="LoginWindow.xaml">
+    
 </Application>
