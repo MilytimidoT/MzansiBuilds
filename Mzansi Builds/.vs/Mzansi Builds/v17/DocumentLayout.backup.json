@@ -1,93 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\",
+  "WorkspaceRootPath": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\views\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\views\\feedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\feedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\views\\feedwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\feedwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\feedwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\services\\dataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\services\\dataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\converters\\profileimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\converters\\profileimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\converters\\initialsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\converters\\initialsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\converters\\displayconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\converters\\displayconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuilds\\mzansi builds\\mzansi builds\\views\\profilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\profilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\profilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\obj\\Debug\\Views\\FriendsWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mzansi Builds\\obj\\Debug\\Views\\FriendsWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\feedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\feedwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\notificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\services\\dataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\services\\dataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\notificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\notificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\mzansi builds\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mpumi\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Helpers\\ListResources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Helpers\\ListResources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|c:\\users\\mpumi\\documents\\github\\mzansibuild\\mzansi builds\\mzansi builds\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64CCFBDB-1084-40CF-9205-8CEA2B746F12}|Mzansi Builds\\Mzansi Builds.csproj|solutionrelative:mzansi builds\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,290 +50,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FeedWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\FeedWindow.xaml",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml*",
-              "RelativeToolTip": "Mzansi Builds\\Views\\FeedWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-12T20:29:54.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "FeedWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml.cs",
               "RelativeDocumentMoniker": "Mzansi Builds\\Views\\FeedWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml.cs*",
-              "RelativeToolTip": "Mzansi Builds\\Views\\FeedWindow.xaml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml.cs",
+              "RelativeToolTip": "Mzansi Builds\\Views\\FeedWindow.xaml.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAK4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T21:40:44.863Z",
+              "WhenOpened": "2026-04-14T21:00:48.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml",
-              "RelativeToolTip": "Mzansi Builds\\Views\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-12T20:26:35.672Z",
+              "DocumentIndex": 1,
+              "Title": "ProfileWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
+              "RelativeToolTip": "Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:56:55.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "Mzansi Builds\\Views\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:27:22.8Z",
+              "Title": "ProfileWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\ProfileWindow.xaml",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml",
+              "RelativeToolTip": "Mzansi Builds\\Views\\ProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T19:42:49.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProfileWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\ProfileWindow.xaml",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml",
-              "RelativeToolTip": "Mzansi Builds\\Views\\ProfileWindow.xaml",
+              "DocumentIndex": 3,
+              "Title": "FeedWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\FeedWindow.xaml",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\FeedWindow.xaml",
+              "RelativeToolTip": "Mzansi Builds\\Views\\FeedWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-13T19:56:39.971Z",
+              "WhenOpened": "2026-04-14T20:56:56.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\NotificationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\NotificationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\NotificationWindow.xaml.cs",
+              "RelativeToolTip": "Mzansi Builds\\Views\\NotificationWindow.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwEYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T20:29:26.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\ViewModels\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\ViewModels\\ProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\ViewModels\\ProfileViewModel.cs",
-              "RelativeToolTip": "Mzansi Builds\\ViewModels\\ProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Title": "Dataservices.cs",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Services\\Dataservices.cs",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Services\\Dataservices.cs",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Services\\Dataservices.cs",
+              "RelativeToolTip": "Mzansi Builds\\Services\\Dataservices.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAuwNwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T19:55:21.843Z",
+              "WhenOpened": "2026-04-14T19:44:06.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Dataservices.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Services\\Dataservices.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Services\\Dataservices.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Services\\Dataservices.cs*",
-              "RelativeToolTip": "Mzansi Builds\\Services\\Dataservices.cs*",
-              "ViewState": "AgIAABEBAAAAAAAAAAAAAC0BAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:32:48.464Z",
+              "Title": "NotificationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\NotificationWindow.xaml",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\NotificationWindow.xaml",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\NotificationWindow.xaml",
+              "RelativeToolTip": "Mzansi Builds\\Views\\NotificationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T20:26:56.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Models\\User.cs",
-              "RelativeToolTip": "Mzansi Builds\\Models\\User.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAAoAAAAAAAAAA==",
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T18:55:46.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Models\\Post.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Models\\Post.cs*",
-              "RelativeToolTip": "Mzansi Builds\\Models\\Post.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T21:13:32.193Z",
+              "WhenOpened": "2026-04-14T19:56:58.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\App.xaml",
-              "RelativeDocumentMoniker": "Mzansi Builds\\App.xaml",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\App.xaml*",
-              "RelativeToolTip": "Mzansi Builds\\App.xaml*",
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "Mzansi Builds\\Views\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-12T21:51:09.831Z",
+              "WhenOpened": "2026-04-14T19:56:27.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Helpers\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Helpers\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Helpers\\RelayCommand.cs",
-              "RelativeToolTip": "Mzansi Builds\\Helpers\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuild\\Mzansi Builds\\Mzansi Builds\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Mzansi Builds\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T19:37:05.205Z",
+              "WhenOpened": "2026-04-14T19:56:37.002Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProfileImageConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Converters\\ProfileImageConverter.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Converters\\ProfileImageConverter.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Converters\\ProfileImageConverter.cs",
-              "RelativeToolTip": "Mzansi Builds\\Converters\\ProfileImageConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T19:37:16.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "InitialsConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Converters\\InitialsConverter.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Converters\\InitialsConverter.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Converters\\InitialsConverter.cs",
-              "RelativeToolTip": "Mzansi Builds\\Converters\\InitialsConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T20:05:15.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DisplayConverters.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Converters\\DisplayConverters.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Converters\\DisplayConverters.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Converters\\DisplayConverters.cs",
-              "RelativeToolTip": "Mzansi Builds\\Converters\\DisplayConverters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T19:57:38.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProfileWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
-              "RelativeToolTip": "Mzansi Builds\\Views\\ProfileWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T19:56:57.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RegisterWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\RegisterWindow.xaml",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\RegisterWindow.xaml",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\RegisterWindow.xaml",
-              "RelativeToolTip": "Mzansi Builds\\Views\\RegisterWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-12T20:28:43.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FriendsWindow.g.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\obj\\Debug\\Views\\FriendsWindow.g.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\obj\\Debug\\Views\\FriendsWindow.g.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\obj\\Debug\\Views\\FriendsWindow.g.cs",
-              "RelativeToolTip": "Mzansi Builds\\obj\\Debug\\Views\\FriendsWindow.g.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAADoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T19:14:24.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegisterWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
-              "RelativeToolTip": "Mzansi Builds\\Views\\RegisterWindow.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T20:29:14.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Mzansi Builds\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\App.xaml.cs",
-              "RelativeToolTip": "Mzansi Builds\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T21:51:38.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs [Read Only]",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwCsAAAAEAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T21:30:23.652Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ListResources.cs",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Helpers\\ListResources.cs",
-              "RelativeDocumentMoniker": "Helpers\\ListResources.cs",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Helpers\\ListResources.cs",
-              "RelativeToolTip": "Helpers\\ListResources.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T21:49:11.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\App.config",
-              "RelativeDocumentMoniker": "Mzansi Builds\\App.config",
-              "ToolTip": "C:\\Users\\Mpumi\\Documents\\GitHub\\MzansiBuilds\\Mzansi Builds\\Mzansi Builds\\App.config",
-              "RelativeToolTip": "Mzansi Builds\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-04-13T17:31:29.835Z"
             }
           ]
         }

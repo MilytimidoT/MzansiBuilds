@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\obj\Debug\
+C:\Users\Mpumi\Documents\GitHub\MzansiBuild\Mzansi Builds\Mzansi Builds\obj\Debug\
 Mzansi_Builds
 none
 false
 DEBUG;TRACE
-C:\Users\Mpumi\Documents\GitHub\MzansiBuilds\Mzansi Builds\Mzansi Builds\App.xaml
-4-765974757
+C:\Users\Mpumi\Documents\GitHub\MzansiBuild\Mzansi Builds\Mzansi Builds\App.xaml
+5-368435532
 
-17-374205902
+14955372628
 13-1310406943
-Views\FeedWindow.xaml;Views\LoginWindow.xaml;Views\ProfileWindow.xaml;Views\RegisterWindow.xaml;
+Views\FeedWindow.xaml;Views\LoginWindow.xaml;Views\NotificationWindow.xaml;Views\ProfileWindow.xaml;Views\RegisterWindow.xaml;
 
 False
 

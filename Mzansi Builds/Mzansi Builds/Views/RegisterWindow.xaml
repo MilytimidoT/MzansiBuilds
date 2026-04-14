@@ -15,9 +15,6 @@
 
                 <TextBlock Text="City" Margin="0,8,0,2"/>
                 <TextBox x:Name="CityBox" Height="30"/>
-                <Button Content="Upload Profile Image"
-        Click="UploadImage_Click"/>
-                <TextBlock x:Name="ImagePathText"/>
 
                 <TextBlock Text="Password" Margin="0,8,0,2"/>
                 <PasswordBox x:Name="PasswordBox" Height="30"/>

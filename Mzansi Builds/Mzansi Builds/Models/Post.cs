@@ -5,21 +5,15 @@ namespace Mzansi_Builds.Models
 {
     public class Post
     {
-        public Guid Id { get; set; }
         public string AuthorEmail { get; set; }
+        public string AuthorName { get; set; }
         public DateTime CreatedAt { get; set; }
         public string Content { get; set; }
-        public List<string> AttachmentPaths { get; set; } = new List<string>();
+        public List<string> AttachmentPaths { get; set; }
         public string GithubLink { get; set; }
 
-        // New: like support
-        public int LikesCount { get; set; }
-        public List<string> LikedBy { get; set; } = new List<string>();
-
-        public Post()
-        {
-            Id = Guid.NewGuid();
-            CreatedAt = DateTime.Now;
-        }
+        // ✅ NEW
+        public List<string> Likes { get; set; } = new List<string>();
+        public List<Comment> Comments { get; set; } = new List<Comment>();
     }
 }
